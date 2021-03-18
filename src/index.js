@@ -1,17 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+class calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    };
+
+  }
+
+  render() {
+    return(
+
+
+    );
+  }
+}
+
+class display extends React.Component {
+  constructor(props) {
+    super(props);
+  };
+
+  render() {
+    return(
+
+
+    );
+  }
+}
+
+class button extends React.Component {
+  constructor(props) {
+    super(props);
+  };
+
+  render() {
+    return(
+
+      
+    );
+  }
+}
